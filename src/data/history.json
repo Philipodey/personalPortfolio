@@ -1,0 +1,25 @@
+[
+  {
+    "role": "Software Engineer Intern" ,
+    "organisation": "Semicolon Institute",
+    "startDate": "July, 2023",
+    "endDate": "June, 2024",
+    "experience": [
+      "Collaborated with other software engineers to build restful APIs",
+      "Built logistics APIs",
+      ""
+    ],
+    "imageSrc": "history/semicolon.png"
+  },
+  {
+    "role": "Software Engineer" ,
+    "organisation": "Kraftahs",
+    "startDate": "July, 2024",
+    "endDate": "till now",
+    "experience": [
+      "Collaborated with other software engineers to build restful APIs",
+      "Built logistics APIs"
+    ],
+    "imageSrc": "history/kraftahs.jpg"
+  }
+]
