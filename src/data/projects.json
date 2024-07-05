@@ -1,19 +1,35 @@
 [
-  {
-    "title": "Movie Teller",
-    "imageSrc": "",
-    "description": "",
-    "skills": ["React", ""],
-    "demo": "",
-    "source": ""
-  },
- {
-    "title": "",
-    "imageSrc": "",
-    "description": "",
-    "skills": ["React", ""],
-    "demo": "",
-    "source": ""
-  }
+    {
+      "title": "Movie Teller",
+      "imageSrc": "projects/movieTeller.png",
+      "description": "This is a project that is made to give details about a movie the casts, director, languages and award of a particular by just providing the name of the movie",
+      "skills": ["Javascript","Html", "Css"],
+      "demo": "https://movie-api-search.vercel.app/",
+      "source": "https://github.com/Philipodey/movieApiSearch.git"
+    },
+   {
+      "title": "Calculator",
+      "imageSrc": "projects/calculatorApp.png",
+      "description": "This is a calculator project that calculates data inputted",
+      "skills": ["Javascript", "Html", "Css"],
+      "demo": "https://calculator-application-seven.vercel.app/",
+      "source": "https://github.com/Philipodey/calculatorApplication.git"
+    },
+   {
+      "title": "Personal portfolio",
+      "imageSrc": "projects/portfolioImage.png",
+      "description": "This is a portfolio project that describes me",
+      "skills": ["React"],
+      "demo": "https://personal-portfolio-r6mw.vercel.app/",
+      "source": "https://github.com/Philipodey/personalPortfolio.git"
+    },
+    {
+      "title": "Nextcent website",
+      "imageSrc": "projects/reactPage.png",
+      "description": "This is a portfolio project on react that shows my little experience in optimized sites building",
+      "skills": ["React"],
+      "demo": "https://vercel.com/odey-philips-projects/react-page",
+      "source": "https://github.com/Philipodey/react_page.git"
+    }
 
 ]
