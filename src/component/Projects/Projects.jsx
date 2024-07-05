@@ -1,32 +1,37 @@
 import projects from "../../data/projects.json"
 import {getImageUrl} from "../../utils.js";
+import styles from "./Projects.module.css"
 
 export const Projects=()=>{
     return(
-        <div>
-            <h2>
+        <div className={styles.container} id={"projects"}>
+            <h2 className={styles.title}>
                 Projects
             </h2>
-            <div>
+            <div className={styles.projects}>
                 {
                     projects.map((project, id)=>{
                         return(
-                            <div key={id}>
+                            <div key={id} className={styles.cardContainer}>
                                 <img src={getImageUrl(project.imageSrc)}
                                      alt={`image of ${project.imageSrc}`}
+                                     className={styles.image}
                                 />
-                                <h3>{project.title}</h3>
-                                <p>{project.description}</p>
-                                <ul>
+                                <h3 className={styles.cardTitle}>{project.title}</h3>
+                                <p className={styles.cardDescription}>{project.description}</p>
+                                <ul className={styles.skills}>
                                     {
+
                                         project.skills.map((skill, id)=>{
-                                        <li key={id}>{skill}</li>
+                                        return(
+                                            <li key={id} className={styles.skill}>{skill}</li>
+                                        )
                                         })
                                     }
                                 </ul>
-                                <div>
-                                    <a href={project.demo}>Demo</a>
-                                    <a href={project.source}>Source</a>
+                                <div className={styles.links}>
+                                    <a href={project.demo} className={styles.link}>Demo</a>
+                                    <a href={project.source} className={styles.link}>Source</a>
                                 </div>
                             </div>
                         )

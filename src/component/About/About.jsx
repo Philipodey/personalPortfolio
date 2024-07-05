@@ -3,7 +3,7 @@ import styles from "./About.module.css"
 
 export const About = ()=>{
     return(
-        <div className={styles.container}>
+        <div className={styles.container} id={"about"}>
            <h2 className={styles.title}>About</h2>
             <div className={styles.content}>
                 <img className={styles.aboutImage} src={getImageUrl("about/aboutImage.svg")}
