@@ -1,4 +1,5 @@
 import projects from "../../data/projects.json"
+
 import {getImageUrl} from "../../utils.js";
 import styles from "./Projects.module.css"
 
